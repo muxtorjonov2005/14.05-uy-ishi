@@ -286,9 +286,16 @@ body a, ul{
         }
     }
 
-    .about_tex__img{
+    /*.about_tex__img{
         position: absolute;
         top: 204px;
         left: 881px;
-    }
+    }*/
+}
+
+
+.about_tex__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

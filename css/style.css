@@ -213,6 +213,11 @@ body a, ul {
   padding-top: 116px;
   padding-bottom: 155px;
   position: relative;
+  /*.about_tex__img{
+      position: absolute;
+      top: 204px;
+      left: 881px;
+  }*/
 }
 .about_tex .about_tex__info h4 {
   font-size: 19px;
@@ -246,8 +251,9 @@ body a, ul {
   font-size: 20px;
   font-weight: 700;
 }
-.about_tex .about_tex__img {
-  position: absolute;
-  top: 204px;
-  left: 881px;
+
+.about_tex__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
